@@ -1,0 +1,54 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Lato', sans-serif;
+    background-color: #ffffff;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+/* ------------------------------ */
+/* Reusable conponent */
+/* ----------------------------- */
+.clearfix::after{
+    content: " ";
+    display: table;
+    clear: both;
+}
+/* ------------------------------ */
+/* Header */
+/* ----------------------------- */
+header{
+    background-color: aliceblue;
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    height: 100px;
+}
+.logo img{
+    float: left;
+    width: 100px;
+}
+.logo span{
+    display: inline-block;
+    margin-top: 30px;
+    font-size: 150%;
+    margin-left: 20px;
+}
+.link li{
+    display: inline-block;
+    float: right;
+    margin-right: 20px;
+    margin-top: 40px;
+}
+.link li a{
+    text-decoration: none;
+    color: #000000;
+}
+.link{
+    margin-top: -80px;
+    margin-right: 50px;
+}
