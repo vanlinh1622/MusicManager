@@ -5,9 +5,11 @@
 }
 html{
     font-family: 'Lato', sans-serif;
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     font-size: 20px;
     text-rendering: optimizeLegibility;
+    background-image: linear-gradient(120deg, rgb(193, 200, 228), rgb(132, 206, 235));
+
 }
 
 /* ------------------------------ */
@@ -47,7 +49,7 @@ header{
 .link li a{
     text-decoration: none;
     color: #000000;
-    transition: 0.5s;
+    /* transition: 0.5s; */
 }
 .link{
     margin-top: -80px;
@@ -60,9 +62,6 @@ header{
 /* -------------------------------- */
 /* Section */
 /* -------------------------------- */
-section{
-    background-image: linear-gradient(45deg, rgb(193, 200, 228), rgb(132, 206, 235));
-}
 .home{
     padding-top: 20px;
     padding-bottom: 10px;
